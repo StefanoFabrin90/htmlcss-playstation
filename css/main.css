@@ -24,8 +24,10 @@ body {
 /* MAIN */
 
 /* hero */
-.box {
-    /* height: 80px; */
+
+/* box debug */
+.box { 
+    height: 80px;
     border: 1px solid black;
     background-color: rgba(255,255,255, .55);
 }
