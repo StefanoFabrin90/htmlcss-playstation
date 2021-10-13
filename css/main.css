@@ -1,4 +1,7 @@
 
+body {
+    padding-top: 130px;
+}
 /* HEADER */
 .brand .navbar-logo {
     background-color: black;
