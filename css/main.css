@@ -1,0 +1,19 @@
+
+/* HEADER */
+.brand .navbar-logo {
+    background-color: black;
+}
+
+.brand a {
+    color: black;
+    font-weight: 600;
+}
+
+.brand a .check {
+    margin-left: 5px;
+}
+
+.brand .btn-header {
+    border-radius: 20px;
+    background-color: #363636;
+}
