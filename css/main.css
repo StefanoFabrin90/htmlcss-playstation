@@ -20,3 +20,48 @@ body {
     border-radius: 20px;
     background-color: #363636;
 }
+
+/* MAIN */
+
+/* hero */
+.box {
+    /* height: 80px; */
+    border: 1px solid black;
+    background-color: rgba(255,255,255, .55);
+}
+
+.main-content {
+    overflow: hidden;
+}
+
+.main-content .hero {
+    
+    height: 600px;
+    background-image: url('../img/jumbo-bg.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.main-content .hero {
+    color: white;
+}
+
+.main-content .content-hero {
+    position: absolute;
+    bottom: 5rem;
+    right: 0;
+}
+
+.img-hero img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.text-hero .btn-hero {
+    border-radius: 20px;
+    background-color: #cd3d0f;
+}
+
+
