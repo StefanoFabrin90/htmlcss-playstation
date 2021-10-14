@@ -267,4 +267,13 @@ body {
     color: black;
 }
 
+/*section-social*/
+.box-13 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
 
