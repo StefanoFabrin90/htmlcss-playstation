@@ -122,3 +122,33 @@ body {
     color: #787878;
     font-weight: 500;
 }
+
+/* section-5 */
+.main-content .section-5 {
+    height: 600px;
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.main-content .section-5 {
+    color: white;
+}
+
+.main-content .content-section-5 {
+    position: absolute;
+    bottom: 7rem;
+    right: 0;
+}
+
+.img-section-5 img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.text-section-5 .btn-section-5 {
+    border-radius: 20px;
+    background-color: #cd3d0f;
+}
