@@ -275,6 +275,7 @@ body {
 }
 
 /* FOOTER */
+/* section-1 */
 footer {
     background-color: #00439c;
     color: white;
@@ -290,6 +291,16 @@ footer ul {
     object-fit: cover;
 }
 
+/* section-2 */
+.box-16 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer-2 span {
+    text-decoration: underline;
+}
 
 
 
