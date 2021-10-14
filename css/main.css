@@ -195,7 +195,7 @@ body {
     border-radius: 20px;
 }
 
-/* SECTION-9 */
+/*section-9*/
 .section-9 {
     background-color: #bebcbb;
 }
@@ -222,4 +222,19 @@ body {
     border-color: #d9dadc;
 }
 
+.section-9 .btn-9:hover {
+    color: black;
+}
+
+/* section-11 */
+.box-11 {
+    /* height: 70px; */
+    background-color: blue;
+}
+
+.box-11 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
