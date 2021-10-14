@@ -117,3 +117,8 @@ body {
 .box-4:hover {
     border-bottom: 3px solid #2787d5;
 }
+
+.box-4 p {
+    color: #787878;
+    font-weight: 500;
+}
