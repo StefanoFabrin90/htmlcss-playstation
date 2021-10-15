@@ -294,13 +294,15 @@ body {
 }
 
 /* section-social */
-.box-13 {
+.box-13 img {
     cursor: pointer;
-    
+    transition: transform .3s,
+                border-radius .3s;
 }
 
-.box-13:hover {
+.box-13 img:hover {
     transform: scale(1.1);
+    border-radius: 50%;
     box-shadow: 0px 0px 20px 0px rgba(0,0,0, .3);
 }
 
@@ -318,6 +320,7 @@ footer ul {
 
 footer ul li:hover {
     text-decoration: underline;
+    
 }
 
 .box-14 img {
