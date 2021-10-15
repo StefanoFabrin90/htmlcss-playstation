@@ -2,6 +2,19 @@
 body {
     padding-top: 130px;
 }
+
+/* utilities */
+.button {
+    border-radius: 20px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 0;
+}
+
 /* HEADER */
 .brand .navbar-logo {
     background-color: black;
@@ -17,14 +30,12 @@ body {
 }
 
 .brand .btn-header {
-    border-radius: 20px;
     background-color: #363636;
 }
 
 /* MAIN */
 
 /* hero */
-
 .main-content {
     overflow: hidden;
 }
@@ -54,7 +65,6 @@ body {
 }
 
 .text-hero .btn-hero {
-    border-radius: 20px;
     background-color: #cd3d0f;
 }
 
@@ -66,9 +76,6 @@ body {
 }
 
 .main-content .section-1 .box img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -90,27 +97,14 @@ body {
 }
 
 /* section-3 */
-.box-3 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .title-3 p {
     color: #787878;
     font-size: 1rem;
     font-weight: 500;
 }
 
-.title-3 .btn-3 {
-    border-radius: 20px;
-}
-
 /* section-3 */
 .box-4 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
     cursor: pointer;
 }
 
@@ -149,7 +143,6 @@ body {
 }
 
 .text-section-5 .btn-section-5 {
-    border-radius: 20px;
     background-color: #cd3d0f;
 }
 
@@ -160,9 +153,6 @@ body {
 }
 
 .box-6 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
     border-radius: 20px;
 }
 
@@ -179,20 +169,10 @@ body {
 }
 
 /* section-8 */
-.box-8 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .section-8 p {
     color: #787878;
     font-size: 1.2rem;
     font-weight: 500;
-}
-
-.section-8 .btn-8 {
-    border-radius: 20px;
 }
 
 /*section-9*/
@@ -217,25 +197,12 @@ body {
 }
 
 .section-9 .btn-9 {
-    border-radius: 20px;
     background-color:#d9dadc;
     border-color: #d9dadc;
 }
 
 .section-9 .btn-9:hover {
     color: black;
-}
-
-/* section-11 */
-.box-11 {
-    /* height: 70px; */
-    background-color: blue;
-}
-
-.box-11 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 /* section-12 */
@@ -261,17 +228,9 @@ body {
 }
 
 .section-12 .btn-9 {
-    border-radius: 20px;
     background-color:#d9dadc;
     border-color: #d9dadc;
     color: black;
-}
-
-/*section-social*/
-.box-13 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 /* FOOTER */
