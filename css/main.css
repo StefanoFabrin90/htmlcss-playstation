@@ -79,11 +79,6 @@ body {
     border-radius: 10px;
 }
 
-.main-content .section-1 .box:hover {
-    border: 5px solid #0072ce;
-    border-radius: 10px;
-}
-
 /* section-2 */
 .title-2 p:first-child {
     color: #64b4e2;
@@ -103,9 +98,10 @@ body {
     font-weight: 500;
 }
 
-/* section-3 */
-.box-4 img {
+/* section-4 */
+.box-4 {
     cursor: pointer;
+    border-bottom: 3px solid transparent
 }
 
 .box-4:hover {
