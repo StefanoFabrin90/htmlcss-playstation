@@ -86,7 +86,7 @@ body {
 .text-hero .btn-hero:hover {
     transform: scale(0.9); 
     box-shadow: 0 0 0 2px #cd3d0f;
-    border: 2px solid black;
+    border: 2px solid rgba(0,0,0, .5);
 }
 
 /* section-1 */ 
@@ -188,7 +188,7 @@ body {
 .text-section-5 .btn-section-5:hover {
     transform: scale(0.9); 
     box-shadow: 0 0 0 2px #cd3d0f;
-    border: 2px solid black;
+    border: 2px solid rgba(0,0,0, .5);
 }
 
 
