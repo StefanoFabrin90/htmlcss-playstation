@@ -97,7 +97,7 @@ body {
 }
 
 .box:hover {
-    border: 3px solid #0d6efd;
+    border: 3px solid dodgerblue;
     border-radius: 20px;
 }
 
