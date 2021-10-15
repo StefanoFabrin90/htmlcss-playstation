@@ -1,6 +1,6 @@
 
 body {
-    padding-top: 130px;
+    padding-top: 110px;
 }
 
 /* utilities */
@@ -45,7 +45,7 @@ body {
     background-image: url('../img/jumbo-bg.png');
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center 1rem;
 }
 
 .main-content .hero {
@@ -80,7 +80,7 @@ body {
 }
 
 .main-content .section-1 .box:hover {
-    border: 2px solid #0072ce;
+    border: 5px solid #0072ce;
     border-radius: 10px;
 }
 
