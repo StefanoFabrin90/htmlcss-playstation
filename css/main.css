@@ -37,6 +37,14 @@ body {
 
 .brand .btn-header {
     background-color: #363636;
+    transition: transform .4s;
+    border: 2px solid transparent
+}
+
+.brand .btn-header:hover {
+    transform: scale(0.9); 
+    box-shadow: 0 0 0 2px #363636; ;
+    border: 2px solid white;
 }
 
 /* MAIN */
@@ -72,6 +80,13 @@ body {
 
 .text-hero .btn-hero {
     background-color: #cd3d0f;
+    transition: transform .4s;
+    border: 2px solid transparent
+}
+.text-hero .btn-hero:hover {
+    transform: scale(0.9); 
+    box-shadow: 0 0 0 2px #cd3d0f;
+    border: 2px solid black;
 }
 
 /* section-1 */ 
@@ -79,6 +94,10 @@ body {
     border: 5px solid white;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.box:hover {
+    transform: scale(0.9);
 }
 
 .main-content .section-1 .box img {
@@ -104,6 +123,16 @@ body {
     font-weight: 500;
 }
 
+.bt-3 {
+    transition: transform .4s;
+    border: 2px solid transparent
+}
+
+.bt-3:hover {
+    transform: scale(0.9); 
+    box-shadow: 0 0 0 2px #0d6efd;
+    border: 2px solid white;
+}
 /* section-4 */
 .box-4 {
     cursor: pointer;
@@ -146,7 +175,16 @@ body {
 
 .text-section-5 .btn-section-5 {
     background-color: #cd3d0f;
+    transition: transform .4s;
+    border: 2px solid transparent
 }
+
+.text-section-5 .btn-section-5:hover {
+    transform: scale(0.9); 
+    box-shadow: 0 0 0 2px #cd3d0f;
+    border: 2px solid black;
+}
+
 
 /* SECTIION-6 */
 .section-6 {
@@ -201,10 +239,15 @@ body {
 .section-9 .btn-9 {
     background-color:#d9dadc;
     border-color: #d9dadc;
+    transition: transform .4s;
+    border: 2px solid transparent
 }
 
 .section-9 .btn-9:hover {
     color: black;
+    transform: scale(0.9); 
+    box-shadow: 0 0 0 2px #d9dadc;
+    border: 2px solid black;
 }
 
 /* section-12 */
@@ -233,18 +276,25 @@ body {
     background-color:#d9dadc;
     border-color: #d9dadc;
     color: black;
+    transition: transform .4s;
+    box-shadow: 0px 0px 20px 0px transparent
+}
+
+.section-12 .btn-9:hover {
+    transform: scale(0.9); 
+    box-shadow: 0 0 0 2px #d9dadc;
+    border: 2px solid black;
 }
 
 /* section-social */
 .box-13 {
     cursor: pointer;
-    transition: transform .4s;
-    box-shadow: 0px 0px 20px 0px transparent
+    
 }
 
 .box-13:hover {
     transform: scale(1.1);
-    box-shadow: 0px 0px 20px 0px rgba(0,0,0, .5);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0, .3);
 }
 
 /* FOOTER */
